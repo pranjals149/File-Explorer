@@ -1,0 +1,29 @@
+.file-container {
+    display: flex;
+    align-items: center;
+}
+
+.file-name {
+    margin-top: 5px;
+}
+
+.right-click-menu-container {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 1000;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-click-menu-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.right-click-menu-item:hover {
+    background-color: rgb(208, 206, 206);
+}

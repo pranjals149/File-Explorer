@@ -1,0 +1,17 @@
+.folder-container {
+    margin-top: 5px;
+}
+
+.folder-item {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.folder-active {
+    background-color: #d3e0f7;
+}
+
+.folder-data {
+    padding-left: 16px;
+}
